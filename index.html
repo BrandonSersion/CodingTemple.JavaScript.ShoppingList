@@ -14,7 +14,7 @@
         </div>
         <div class="row">
             <div class="small-12 medium-8 columns">
-                <form>
+                <form id="myForm">
                     <div>
                         <label for="name">Name</label>
                         <input id="name" name="name" type="text" placeholder="Item Name" />
@@ -26,11 +26,11 @@
                             <input class="input-group-field" name="price" id="price" type="number" placeholder="0.00">
                         </div>
                     </div>
-                    <button class="button" type="button" id="btn">Add</button>	
+                    <button class="button" type="button" id="btn">Add</button>
                 </form>
             </div>
             <div class="small-12 medium-4 columns">
-                <table class="hover">
+                <table id="itemTable">
                     <thead>
                         <tr>
                             <td></td>
@@ -50,8 +50,8 @@
                 </table>
             </div>
         </div>
-        <script type="text/javascript" src="script.js"></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/js/foundation.min.js"></script>
     </body>
 </html>
